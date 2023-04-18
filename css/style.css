@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* -----HEADER----- */
+header{
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 50px;
+    right: 25px;
+    z-index: 10;
+}
+/* color, style and size bottons */
+.buttons{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 60px ;
+    padding: 20px;
+    font-size: 30px;
+}
+/* size center botton */
+.margins_center_button{
+    margin: 0 40px 0 40px;
+}
+
+/* -----MAIN----- */
+/* size and position sections */
+.red, .green, .yellow{
+    position: relative;
+    height: 100vh;
+}
+/* content centered */
+.col_section_red, .col_section_green, .col_section_yellow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* background color section */
+.red{
+    background-color: red;
+}
+/* background color section */
+.green{
+    background-color: green;
+}
+/* background color section */
+.yellow{
+    background-color: yellow;
+}
+/* color, positio and size sections red and green */
+.text_yellow{
+    color: yellow;
+    text-align: center;
+    font-size: 44px;
+    padding: 0 150px 0 150px;
+}
+/* color, positio and size section yellow*/
+.text_green{
+    color: green;
+    text-align: center;
+    font-size: 44px;
+    padding: 0 150px 0 150px;
+}
+/* img size */
+img{
+    padding: 0 100px 0 100px;
+}
